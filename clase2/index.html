@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo</title>
+  
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div>
+          <img src="" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#acerca">Acerca</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li>
+              <button>
+                Contacto
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Banner principal -->
+      <section class="banner-container">
+        <div>
+          <h1>
+            Hola, soy XXXX <br />
+            Me dedico a <br />
+            Creativo
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur mollitia praesentium reprehenderit debitis ipsa iure
+            enim quis esse vel nobis, repudiandae ad pariatur. Nihil, itaque
+            assumenda quidem odio optio voluptates.
+          </p>
+          <div class="banner-btn">
+            <button
+              class="btn-primario"
+              onclick="window.location.href='#acerca';"
+            >
+              Acerca de mi
+            </button>
+            <button class="btn-secundario">
+              Descargar CV
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="" alt="Foto principal" />
+        </div>
+      </section>
+
+      <!-- Seccion Acerca -->
+      <section id="acerca">
+        <div class="acerca-img">
+          <img src="" alt="skills" />
+        </div>
+        <div class="acerca-txt">
+          <h2>Acerca de mi</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt
+            eveniet omnis quod animi accusamus inventore excepturi, natus labore
+            assumenda deleniti dolorem facilis eligendi velit dolorum possimus.
+            Eum, fuga illum!
+          </p>
+          <div>
+            <button
+              class="btn-primario"             
+            >
+              Mi portfolio
+            </button>
+            <button
+              class="btn-secundario"
+              onclick="window.location.href='#contacto';"
+            >
+              Contactarme
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mis servicios -->
+      <section id="servicios">
+        <div>
+          <h2>Servicios</h2>
+        </div>
+        <div class="servicios-listas">
+          <ul>
+            <li>
+              <img src="img/icon_web.svg" alt="Icono web" />
+              <span>Diseño web</span>
+            </li>
+            <li>
+              <img src="img/icon_web.svg" alt="Icono web" />
+              <span>Diseño Apps</span>
+            </li>
+            <li>
+              <img src="img/icon_web.svg" alt="Icono web" />
+              <span>Diseñador UI</span>
+            </li>
+            <li>
+              <img src="img/icon_web.svg" alt="Icono web" />
+              <span>Ux Researcher</span>
+            </li>
+            <li>
+              <img src="img/icon_web.svg" alt="Icono web" />
+              <span>Ux writer</span>
+            </li>
+          </ul>
+        
+      <!-- Formulario de contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <div>
+          <div class="formulario-container">
+            <form action="" class="formulario" method="POST">
+              <input
+                type="checkbox"
+                placeholder="Nombre"
+                aria-label="Nombre"
+                name="nombre"
+              />
+              <input
+                type="text"
+                placeholder="Apellido"
+                aria-label="Apellido"
+                name="apellido"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                aria-label="Email"
+                name="email"
+              />
+              <textarea
+                name="comentario"
+                id=""
+                cols="10"
+                rows="10"
+                placeholder="Escriba aqui sus comentarios"
+              ></textarea>
+
+              <div class="form-acuerdo">
+                <input type="checkbox" name="deacuerdo" />
+                <p>
+                  Estoy de acuerdo con los
+                  <a href="terminos.html">Términos y condiciones</a>
+                </p>
+              </div>
+              <button class="btn-primario">
+                Enviar
+              </button>
+              <p>
+                <h3>reCaptcha</h3>
+              </p>
+            </form>
+          </div>
+          <!-- Lista de contacto -->
+          <div class="contactolista-container">
+            <ul>
+              <li>
+                <img src="img/icon_tel.svg" alt="Icono" />
+                <span
+                  >Teléfono: <br />
+                  096 646 346
+                </span>
+              </li>
+              <li>
+                <img src="img/icon_mail.svg" alt="Icono" />
+                <span>Email: <br />
+                
+                    email
+                  
+                </span>
+              </li>
+              <li>
+                <img src="img/icon_location.svg" alt="Icono" />
+                <span
+                  >Dirección: <br />                 
+                  Montevideo - Uruguay
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy 2024 Lorem ipsum</p>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#acerca">Acerca de mi</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="redes-footer">
+          <img src="img/f_linkedin.svg" alt="Icono LinkedIn" />
+          <img src="img/f_x.svg" alt="Icono Twitter" />
+          <img src="img/f_instagram.svg" alt="Icono Instagram" />
+          <img src="img/f_face.svg" alt="Icono Facebook" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
